@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { LikeWidgetComponent } from './like-widget.component';
 
 describe('LikeWidgetComponent', () => {
@@ -8,9 +7,8 @@ describe('LikeWidgetComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LikeWidgetComponent ]
-    })
-    .compileComponents();
+      declarations: [LikeWidgetComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
